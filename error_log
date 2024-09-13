@@ -1,0 +1,14 @@
+[18-Nov-2023 05:15:31 UTC] PHP Warning:  Undefined array key "Blood-Group" in /home4/web85sitebov/public_html/blood.php on line 24
+[18-Nov-2023 05:15:31 UTC] PHP Warning:  Undefined array key "Gender" in /home4/web85sitebov/public_html/blood.php on line 26
+[18-Nov-2023 05:15:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'blood_group' cannot be null in /home4/web85sitebov/public_html/blood.php:32
+Stack trace:
+#0 /home4/web85sitebov/public_html/blood.php(32): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home4/web85sitebov/public_html/blood.php on line 32
+[18-Nov-2023 05:23:08 UTC] PHP Warning:  Undefined array key "Blood-Group" in /home4/web85sitebov/public_html/blood.php on line 24
+[18-Nov-2023 05:23:08 UTC] PHP Warning:  Undefined array key "Gender" in /home4/web85sitebov/public_html/blood.php on line 26
+[18-Nov-2023 05:23:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'blood_group' cannot be null in /home4/web85sitebov/public_html/blood.php:32
+Stack trace:
+#0 /home4/web85sitebov/public_html/blood.php(32): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home4/web85sitebov/public_html/blood.php on line 32
